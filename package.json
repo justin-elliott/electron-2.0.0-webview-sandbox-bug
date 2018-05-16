@@ -1,0 +1,15 @@
+{
+  "name": "electron-2.0.0-webview-sandbox-bug",
+  "version": "1.0.0",
+  "description": "A simple demonstration of the Electron 2.0.0 webview sandbox bug.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/justin-elliott/electron-2.0.0-webview-sandbox-bug.git",
+  "author": "Justin Elliott <jelliott@athenahealth.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron lib/index.js"
+  },
+  "devDependencies": {
+    "electron": "2.0.0"
+  }
+}
