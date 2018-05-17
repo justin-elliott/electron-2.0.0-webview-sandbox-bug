@@ -1,6 +1,6 @@
 # electron 2.0.x <webview> Sandbox Bug
 
-In Electron 2.0.0 and 2.0.1, remote objects are being dereferenced prematurely in a `<webview>` that is both sandboxed, and has a preload script.
+In Electron 2.0.0 and 2.0.1, remote objects are being dereferenced prematurely in a `<webview>` that is both sandboxed, and has a preload script. While the first webpage loaded does not exhibit this problem, subsequent pages will.
 
 This application is a simple demonstration of the issue. It will:
 
